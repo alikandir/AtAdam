@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dq4apxtod8nhu"]
+
+[ext_resource type="PackedScene" uid="uid://lp1ccfc6hymh" path="res://scene1_walker/player/player.tscn" id="1_4m6k6"]
+[ext_resource type="PackedScene" uid="uid://csv4bjg5h0wjg" path="res://scene1_walker/enemy/wall/monster_wall.tscn" id="1_ka10t"]
+
+[node name="Scene" type="Node2D"]
+
+[node name="player" parent="." instance=ExtResource("1_4m6k6")]
+position = Vector2(97, 200)
+
+[node name="Node2D" parent="." instance=ExtResource("1_ka10t")]
